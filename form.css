@@ -86,13 +86,17 @@ main{
     margin: 8px 0;
     box-sizing: border-box;
 }
-input[type="submit"]{
+.thirdbox button{
+    box-sizing: border-box;
     outline: none;
-    border: 1px solid black;
+    border-radius: 5px;
     background-color: rgb(48, 59, 156);
     color: white;
     font-weight: bold;
     padding: 12px 20px;
+    width: 262px;
+    height: 54px;
+    margin-left: 4px;
   }
 
 
