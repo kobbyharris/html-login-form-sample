@@ -1,1 +1,108 @@
 
+html{
+    height: 100%;
+}
+body{
+    box-sizing: border-box;
+    max-width: 100vw;
+    max-height: 100vh;
+    margin: 0;
+    margin-top: 12vh;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main{
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    width: 350px;
+    height: auto;
+}
+.firstbox{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: center;
+    align-self: center;
+    margin: 0px;
+}
+.firstbox img, .firstbox h2, .firstbox h2 a{
+    align-self: center;
+    text-decoration: none;
+    color: black;
+}
+
+/*secondbox*/
+.secondbox{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+}
+.secondbox a{
+    outline: auto;
+    outline-color: rgb(196, 194, 194);
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid grey;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 10px;
+    overflow: auto;
+    width: 262px;
+    height: 54px;
+    margin: 0;
+}
+.secondbox a:hover{
+    background-color: whitesmoke;
+}
+.secondbox img{
+    align-self: center;
+    border-radius: 50%;
+}
+
+.common{
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.common p{
+    align-self: center;
+}
+
+
+.thirdbox{
+    margin: 0px 40px 0px 40px;
+}
+.thirdbox input{
+    outline: auto;
+    outline-color: grey;
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.thirdbox button{
+    outline: auto;
+    border-radius: 15px;
+    background-color: rgb(48, 59, 156);
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    width: 100%;
+    height: 54px;
+  }
+
+
+
+
